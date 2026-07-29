@@ -1,0 +1,3 @@
+Place ici 18 images JPG nommées cover-01.jpg à cover-18.jpg.
+Les projets 02, 04 et 05 sont en 9:16 (1080x1920 conseillé).
+Les autres sont en 16:9 (1920x1080 conseillé).
