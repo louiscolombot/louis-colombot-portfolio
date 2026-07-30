@@ -1,0 +1,20 @@
+const PROJECTS = [
+  {"title":"FOLIE DOUCE X SAINT GERMAIN","preview":"EVENT FOLIE DOUCE x St GERMAIN.mp4","cover":"cover-01.jpg","youtube":"https://www.youtube.com/watch?v=_UCJ-FXIfUg","category":"events","format":"landscape"},
+  {"title":"FESTIVAL GARDEN PARVIS","preview":"EVENT GARDEN PARVIS REEL.mp4","cover":"cover-02.jpg","youtube":"https://www.youtube.com/watch?v=cHLr4VKrS9c","category":"events","format":"portrait"},
+  {"title":"PATRON X TERRAZZA MIKUNA","preview":"EVENT PATRON X TERRAZZA MIKUNA V2.mp4","cover":"cover-03.jpg","youtube":"https://www.youtube.com/watch?v=zbd_VQtnaE8","category":"events","format":"landscape"},
+  {"title":"EVENT NATURALIA","preview":"EVENT NATURALIA SPORT CLUB.mp4","cover":"cover-04.jpg","youtube":"https://www.youtube.com/watch?v=QKsVU0ucnJ8","category":"events","format":"portrait"},
+  {"title":"LE MONDIAL DU BREAKDANCE","preview":"EVENT LE MONDIAL DU BREAKDANCE.mp4","cover":"cover-05.jpg","youtube":"https://www.youtube.com/watch?v=XCQRCqAHoSA","category":"events","format":"portrait"},
+  {"title":"MOMA EVENT X VOLVO","preview":"EVENT MOMA X VOLVO.mp4","cover":"cover-06.jpg","youtube":"https://www.youtube.com/watch?v=oQWanRJqL64","category":"events","format":"landscape"},
+  {"title":"MOMA EVENT X MAN TRUCK","preview":"EVENT MOMA X MAN TRUCK.mp4","cover":"cover-07.jpg","youtube":"https://www.youtube.com/watch?v=Mz6-VmUFkTM","category":"events","format":"landscape"},
+  {"title":"Chancre coloré : que devient le bois des platanes contaminés ?","preview":"LE GDON DOCUMENTAIRE 2.mp4","cover":"cover-08.jpg","youtube":"https://www.youtube.com/watch?v=H2ruyqdAM8k","category":"portraits","format":"landscape"},
+  {"title":"LAETITIA, PORTRAIT D'ARTISTE","preview":"PORTRAIT ARTISTE LAETITIA.mp4","cover":"cover-09.jpg","youtube":"https://www.youtube.com/watch?v=GEOql7NqokQ","category":"portraits","format":"landscape"},
+  {"title":"PORTRAIT DE JOSEPH, BERGER / APICULTEUR","preview":"PORTRAIT BERGER, JOSEPH.mp4","cover":"cover-10.jpg","youtube":"https://www.youtube.com/watch?v=pJ4z5f4v7EM","category":"portraits","format":"landscape"},
+  {"title":"Chancre coloré : la lutte sanitaire du GDON de Marseille sur les platanes","preview":"LE GDON MARSEILLE, DOCUMENTAIRE 1.mp4","cover":"cover-11.jpg","youtube":"https://www.youtube.com/watch?v=dv8YHIx50fs","category":"portraits","format":"landscape"},
+  {"title":"THIERRY ET ARNAUD, PORTRAIT DE PISCICULTEURS","preview":"LA PISCICULTURE, portrait thierry et arnaud.mp4","cover":"cover-12.jpg","youtube":"https://www.youtube.com/watch?v=H-U-CHnWmB0","category":"portraits","format":"landscape"},
+  {"title":"TOMA CAFÉ, PORTRAIT DE TORRÉFACTEUR","preview":"PORTRAIT TORREFACTEUR, Toma Café.mp4","cover":"cover-13.jpg","youtube":"https://www.youtube.com/watch?v=IYVCp_Ka7qg","category":"portraits","format":"landscape"},
+  {"title":"LOUISE, PORTRAIT DE CÉRAMISTE","preview":"PORTRAIT CERAMISTE, LOUISE.mp4","cover":"cover-14.jpg","youtube":"https://www.youtube.com/watch?v=QOAGc8Rtnp8","category":"portraits","format":"landscape"},
+  {"title":"LA FORÊT, MINI-DOCUMENTAIRE","preview":"LA FORET MINI DOCUMENTAIRE.mp4","cover":"cover-15.jpg","youtube":"https://www.youtube.com/watch?v=Jg6O0sApQKo","category":"portraits","format":"landscape"},
+  {"title":"CHIN MUDRA — NOËL 2025","preview":"PUB chin mudra NOEL 1.mp4","cover":"cover-16.jpg","youtube":"https://www.youtube.com/watch?v=0AcQQwES2Z4","category":"brand","format":"landscape"},
+  {"title":"CHIN MUDRA — NOËL 2026","preview":"PUB CHIN MUDRA NOEL 2.mp4","cover":"cover-17.jpg","youtube":"https://www.youtube.com/watch?v=anxhl2cYcWY","category":"brand","format":"landscape"},
+  {"title":"MARIAGE ALBANE ET JULES","preview":"MARIAGE Albane & Jules.mp4","cover":"cover-18.jpg","youtube":"https://www.youtube.com/watch?v=tVyb_tZp7wo","category":"mariage","format":"landscape"}
+];

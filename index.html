@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Louis Colombot — Réalisateur, cadreur et monteur à Marseille">
+  <title>Louis Colombot</title>
+  <link rel="stylesheet" href="style.css?v=24">
+</head>
+<body>
+<header class="topbar">
+  <a class="identity" href="#top">
+    <span>Louis Colombot</span>
+    <span>Marseille</span>
+  </a>
+
+  <nav class="topnav" aria-label="Navigation principale">
+    <a href="#events">Events</a>
+    <a href="#portraits">Portraits / Docu</a>
+    <a href="#brand">Brand</a>
+    <a href="#mariage">Mariage</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero" aria-label="Film à la une">
+    <iframe
+      id="heroFrame"
+      class="heroFrame"
+      title="Film à la une"
+      allow="autoplay; encrypted-media; picture-in-picture"
+      referrerpolicy="strict-origin-when-cross-origin"
+    ></iframe>
+    <div class="heroShade"></div>
+
+    <div class="heroLabel">
+      <span>Louis Colombot</span>
+      <span>Films</span>
+    </div>
+
+    <button class="heroOpen" type="button" aria-label="Lire le film à la une">
+      Voir le film
+    </button>
+  </section>
+
+  <section class="indexStrip" id="films" aria-label="Index des films">
+    <div class="indexLabel">
+      <span>Selected works</span>
+    </div>
+    <div class="indexRoles">
+      <span>Réalisateur</span>
+      <span>Cadreur</span>
+      <span>Monteur</span>
+    </div>
+  </section>
+
+  <section class="works" aria-label="Sélection de films">
+    <div id="projectList"></div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contactHead">
+      <span class="contactMark">Contact</span>
+      <span class="contactLocation">Marseille, France</span>
+    </div>
+
+    <div class="contactGrid">
+      <div class="contactBlock">
+        <span>Email</span>
+        <a href="mailto:colombotlouis@gmail.com">colombotlouis@gmail.com</a>
+      </div>
+
+      <div class="contactBlock">
+        <span>Instagram</span>
+        <a href="https://www.instagram.com/louis__colombot/" target="_blank" rel="noopener">
+          @louis__colombot ↗
+        </a>
+      </div>
+
+      <div class="contactBlock">
+        <span>Téléphone</span>
+        <a href="tel:+33669121208">+33 6 69 12 12 08</a>
+      </div>
+
+      <div class="contactBlock">
+        <span>Disponibilité</span>
+        <p>France & international</p>
+      </div>
+    </div>
+
+    <div class="contactBottom">
+      <span>© <b id="year"></b> Louis Colombot</span>
+      <a href="#top">Retour en haut ↑</a>
+    </div>
+  </section>
+</main>
+
+<div class="viewer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Lecteur vidéo">
+  <button class="viewerClose" type="button">Close</button>
+
+  <div class="viewerInner">
+    <div class="viewerStage">
+      <iframe
+        class="viewerFrame"
+        title="Lecteur YouTube"
+        allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+        allowfullscreen
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
+    </div>
+
+    <div class="viewerCaption">
+      <div>
+        <h2 class="viewerTitle"></h2>
+        <span class="viewerCategory"></span>
+      </div>
+      <a class="fullFilmLink" target="_blank" rel="noopener">
+        Full film ↗
+      </a>
+    </div>
+  </div>
+</div>
+
+<script src="projects.js?v=24"></script>
+<script src="app.js?v=24"></script>
+</body>
+</html>
